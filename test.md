@@ -140,6 +140,7 @@ Name                        | İlgili aksesuarın kullanıcı tarafından serbes
 Description                 | Buraya yazılacak kod tarafından otomatik olarak oluşturulacak ifadenin yerleştirileceği alandır.
 Group                       | İlgili aksesuarın grup adına ulaşım sağlar.
 Message                     | Aksesuar Detay bölümünde ilgili kart üzerinde düzenleme yaparken kullanıcıya mesaj iletmek için kullanılabilir.
+
 Bunların dışında kodun içinde kullanmak için değişken tanımlanabilir. Bunu `var`, `string`, `int`, `float` değişken tanımlamaları ile oluşturabilirsiniz.
 
 ##### Metin İşleme Komutları
