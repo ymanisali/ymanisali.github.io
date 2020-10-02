@@ -184,7 +184,7 @@ Operatör | İşlevi
 !=       | Eşit değildir. Sağdaki ve soldaki ifadeler farklı ise `true` değeri verir.
 !        | Değildir operatörü, yukarıdaki örnekte yer almıştı, tek bir ifadenin tersini alır.
 &&       | Ve karşılaştırma operatörü (AND)
-II      | Veya operatörü (OR)
+II       | Veya operatörü (OR)
 
 ##### Atama Operatörleri
 Altta yer alan operatörler atama yapmak için kullanılır.
