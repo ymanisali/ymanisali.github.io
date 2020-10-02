@@ -151,6 +151,7 @@ Kod            | İşlevi
 .ToUpper()     | İfadenin tamamını büyük harfe çevirir.
 .ToLower()     | İfadenin tamamını küçük harfe çevirir.
 .ToString()    | Sayısal türde oluşan verileri metin türüne çevirir.
+
 Alttaki örnek ilgili aksesuarın *Katlama* özelliğine erişip ifadenin sonunda ve başında var ise fazla karakterleri silip alır.
 ```csharp
 Dictionary["Katlama"].Trim();
@@ -163,6 +164,7 @@ String.IsNullOrEmpty(İfade)  | İfade ile belirtilen değişkenin boş olup olm
 Convert.ToInt32(İfade)       | İfade ile belirtilen değişkeni sayısal türde veriye dönüştürür. Çarpma, bölme gibi matematiksel işlemlerde kullanılır.
 String.Join(Array, ',')      | Array adındaki dizideki bilgileri sağda belirtilen karakter ile birleştirip tek bir ifade oluşturur.
 .Split(';')                  | Bu ifade birleştirilmiş ifadeleri belirtilen karakterden bölmek için kullanılır. Çıktı olarak bir dizi verir.
+
 Alttaki örnek *Katlama* özelliğinin boş olup olmadığını kontrol eder. Boş ise `true` değerini döndürdüğü için ifadenin başında `!` işareti bulunur. Bu ifadenin tersini alır. Yani alan boş değilse `{`, `}` parantezleri arasındaki ifade çalıştırılır. Bu ifade de var ise fazla boşlukları atıp özellikteki yazan bilgiyi `Description` alanına ekler.
 ```csharp
 if (!String.IsNullOrEmpty(Dictionary["Katlama"]))
